@@ -4,64 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Learn',
+    title: <a href="/docs/category/learn">Learn</a>,
     Svg: require('@site/static/img/undraw_education.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    href: "/docs/category/learn",
   },
   {
-    title: 'Use',
+    title: <a href="/docs/category/use">Use</a>,
     Svg: require('@site/static/img/undraw_use.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
   },
   {
-    title: 'Build',
+    title: <a href="/docs/category/build">Build</a>,
     Svg: require('@site/static/img/undraw_build.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
   },
   {
-    title: 'Mine',
+    title: <a href="/docs/category/mine">Mine</a>,
     Svg: require('@site/static/img/undraw_mining.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
   },
   {
-    title: 'Stake',
+    title: <a href="/docs/category/stake">Stake</a>,
     Svg: require('@site/static/img/undraw_stake.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
   },
   {
-    title: 'Exchange',
+    title: <a href="/docs/category/exchange">Exchange</a>,
     Svg: require('@site/static/img/undraw_investing.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
   },
 ];
 

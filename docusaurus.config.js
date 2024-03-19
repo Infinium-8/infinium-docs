@@ -80,7 +80,6 @@ const config = {
             position: 'left',
             label: 'Use',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Infinium-8/infinium-docs',
             label: 'GitHub',
@@ -112,10 +111,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/Infinium-8',
