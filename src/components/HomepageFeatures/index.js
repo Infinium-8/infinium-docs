@@ -4,28 +4,27 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: <a href="/docs/category/learn">Learn</a>,
-    Svg: require('@site/static/img/undraw_education.svg').default,
-    href: "/docs/category/learn",
+    title: <a href="/docs/learn/what-is-infinium">Learn</a>,
+    Svg: require('@site/static/img/undraw_education.svg').default,    
   },
   {
-    title: <a href="/docs/category/use">Use</a>,
+    title: <a href="/docs/use/overview">Use</a>,
     Svg: require('@site/static/img/undraw_use.svg').default,
   },
   {
-    title: <a href="/docs/category/build">Build</a>,
+    title: <a href="/docs/build/overview">Build</a>,
     Svg: require('@site/static/img/undraw_build.svg').default,
   },
   {
-    title: <a href="/docs/category/mine">Mine</a>,
+    title: <a href="/docs/mine/overview">Mine</a>,
     Svg: require('@site/static/img/undraw_mining.svg').default,
   },
   {
-    title: <a href="/docs/category/stake">Stake</a>,
+    title: <a href="/docs/stake/proof-of-stake-mining">Stake</a>,
     Svg: require('@site/static/img/undraw_stake.svg').default,
   },
   {
-    title: <a href="/docs/category/exchange">Exchange</a>,
+    title: <a href="/docs/exchange/overview">Exchange</a>,
     Svg: require('@site/static/img/undraw_investing.svg').default,
   },
 ];

@@ -2,15 +2,15 @@
 sidebar_position: 3
 ---
 
-# Managing wallets
+# Managing Wallets
 
-Zano app lets you manage multiple ZANO wallets, which can be easily created, restored and removed from the app. The core of each wallet is a seed phrase. It's a sequence of 24 words, that can be used to recovery your wallet private and public keys. Every time you create a new wallet within the app, a unique sequence is generated. It's important to always keep it safe and accessible.
+Infinium app lets you manage multiple Infinium wallets, which can be easily created, restored and removed from the app. The core of each wallet is a seed phrase. It's a sequence of 24 words, that can be used to recovery your wallet private and public keys. Every time you create a new wallet within the app, a unique sequence is generated. It's important to always keep it safe and accessible.
 
 For your convenience it's not necessary to use a seed phrase to manage your wallet. When you create a wallet the wallet file is generated as well. The file is secured with additional password and grants access to wallet features and the seed phrase. It can be copied to another device and used with another app.
 
 ### Creating wallets
 
-There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` section choose
+There are 3 ways to create a wallet in Infinium app. From the `Wallets` `Add` section choose
 
 - Create new wallet
 
@@ -39,9 +39,9 @@ There are 3 ways to create a wallet in Zano app. From the `Wallets` `Add` sectio
 
 ### Wallet details
 
-Each Zano wallet can be identified by a custom name assigned on creation. This name can be edited in `Details` section anytime. Information about wallet file location and it's seed phrase available here as well. Note that you can copy the seed phrase by clicking right mouse button over it and choosing `COPY` from the context menu.
+Each Infinium wallet can be identified by a custom name assigned on creation. This name can be edited in `Details` section anytime. Information about wallet file location and it's seed phrase available here as well. Note that you can copy the seed phrase by clicking right mouse button over it and choosing `COPY` from the context menu.
 
-You can remove a wallet from the Zano app by clicking `Close wallet` in the same section. Note that wallet file will remain unaffected and you can import it again anytime if necessary.
+You can remove a wallet from the Infinium app by clicking `Close wallet` in the same section. Note that wallet file will remain unaffected and you can import it again anytime if necessary.
 
 ![alt wallet-details](../../../static/img/use/managing-wallets/wallet-details.png "wallet-details")_<figcaption style={{textAlign: "center" }} >Wallet details</figcaption>_
 
