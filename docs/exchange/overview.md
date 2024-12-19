@@ -13,6 +13,8 @@ If you prefer to use centralized exchanges, here is a list of renowned CEX and s
 ### CEX
 Centralized exchanges that offer exchanging Infinium for national currencies and cryptocurrencies.
 
+- [Mecacex](https://mecacex.com/) (BTC, USDT)
+- [Xeggex](https://xeggex.com/) (BTC, USDT)
 - [Cratex](https://cratex.io/) (BTC, LTC, DOGE, BTCZ, USDT)
 - [Finexbox](https://www.finexbox.com/) (BTC)
 
