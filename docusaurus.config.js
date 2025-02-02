@@ -229,7 +229,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Infinium-8 `,
+        copyright: `Copyright © ${new Date().getFullYear()} Infinium`,
       },
       prism: {
         theme: prismThemes.github,
