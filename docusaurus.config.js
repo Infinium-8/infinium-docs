@@ -26,15 +26,34 @@ const config = {
   projectName: 'infinium-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'es'],
+    locales: ['en'],
   },
+
+plugins: [
+  [
+    '@docusaurus/plugin-client-redirects',
+    {
+      redirects: [
+        {
+          from: '/reference/getinfo',
+          to: '/docs/build/rpc-api/daemon-rpc-api/getinfo',
+        },
+      ],
+    },
+  ],
+],
 
   presets: [
     [
